@@ -1,0 +1,171 @@
+\documentclass[a4paper,20pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[top=0.8in, bottom=0.8in, right=0.7in, left=0.7in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\baselinestretch}{1.3}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}\vspace{3pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{@{\extracolsep{\fill}}lr}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubSubheadingTwo}[4]{
+    \begin{tabular*}{0.97\textwidth}{@{\extracolsep{\fill}}lr}
+      \textit{\small#1} & \textit{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\begin{document}
+
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\LARGE Jerry Wang} & Email: email@mail.com\\
+  \href{}{Another link} & Mobile: 12334455 \\
+  \href{}{https://github.com/jdxwang} & Sydney, Australia \\
+\end{tabular*}
+
+
+\section{Education}
+  \resumeSubHeadingListStart
+  \vspace{5pt}
+      \resumeSubheading
+      {University}{Sydney, Australia}
+      \resumeSubSubheading
+      {PhD}{2017}
+      
+      \resumeItemListStart
+      \item Research
+      \item Project
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {University}{Sydney, Australia}
+      \resumeSubSubheading
+      {Master}{2016}
+      
+      \resumeItemListStart
+      \item Research
+      \item Project
+      \item Grants
+      \item Scholarship
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {University}{Sydney, Australia}
+      \resumeSubSubheading
+      {Bachelor}{2015}
+  \resumeSubHeadingListEnd
+
+
+\section{Experience}
+  \resumeSubHeadingListStart
+  \vspace{5pt}
+  \resumeSubheading
+     {Google}{Sydney, Australia}
+  \vspace{-3pt}
+  \resumeSubSubheadingTwo
+     {Andriod}{Feb 2021 - Present}
+     {Chrome}{Aug 2020 - Jan 2021}
+  \vspace{-1pt}
+  
+      \resumeItemListStart
+      \item Android KitKat
+      \item Android Lollipop
+      \item Android Marshmallow
+      \item Android Nougat
+      \item Android Oreo
+      \resumeItemListEnd
+	  
+    \resumeSubheading
+      {Microsoft}{Sydney, Australia}
+    \resumeSubSubheading
+      {Engineer}{Dec 2019 - Jun 2020}
+	  
+      \resumeItemListStart
+      \item Coding
+      \item Presentation
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+
+
+\section{Extracurricular Activities}
+  \resumeSubHeadingListStart
+  \vspace{5pt}
+    \resumeSubItem{A}
+      {A}
+      \resumeSubItem{B}
+      {B}
+      \resumeSubItem{C}
+      {C}
+      \resumeSubItem{D}
+      {D}
+  \resumeSubHeadingListEnd
+
+
+\section{Professional Skills}
+  \resumeSubHeadingListStart
+  \vspace{5pt}
+    \item Microsoft Office
+    \item R
+    \item SQL
+    \item Python
+  \resumeSubHeadingListEnd
+ 
+ 
+\section{Other}
+    \resumeSubHeadingListStart
+    \vspace{5pt}
+    \item Yes
+  \resumeSubHeadingListEnd
+
+
+\end{document}
