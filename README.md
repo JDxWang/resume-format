@@ -1,2 +1,3 @@
-# resume-format
-My resume / CV in latex
+# Resume
+
+This is simply the LaTeX file for my resume, obviously with sensitive information removed.
